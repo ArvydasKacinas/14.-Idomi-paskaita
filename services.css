@@ -5,14 +5,14 @@ body {
 
 header {
     background-color: aqua;
-    max-width: 1280px;
+    max-width: 1200px;
 }
 
 .top-container {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    max-width: 1280px;
+    max-width: 1200px;
 }
 
 .navigation {
@@ -30,14 +30,36 @@ header {
 
 .middle {
     margin: auto;
-    max-width: 1280px;
+    max-width: 1200px;
     background-color: lime;
     padding: 10%;
 }
 
+.banner-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    margin: 0px;
+}
+
+.image-container {
+    max-width: 50%;
+}
+
+img {
+    max-width: 560px;
+    max-height: 560px;
+}
+
+.title-container {
+    max-width: 50%;
+}
+
 footer {
     margin: auto;
-    max-width: 1280px;
+    max-width: 1200px;
     background-color: lightcoral;
     padding: 10%;
 }
