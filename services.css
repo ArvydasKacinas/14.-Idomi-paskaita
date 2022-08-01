@@ -1,5 +1,5 @@
 body {
-        font-family: 'Montserrat' !important;
+        /* font-family: 'Montserrat' !important; */
         margin: 0 auto;
 }
 
@@ -60,6 +60,8 @@ img {
 footer {
     margin: auto;
     max-width: 1200px;
-    background-color: lightcoral;
-    padding: 10%;
+}
+
+footer p {
+    margin: 0px;
 }
