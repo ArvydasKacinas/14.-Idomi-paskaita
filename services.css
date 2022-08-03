@@ -28,6 +28,15 @@ header {
     margin-right: 30px;
 }
 
+.navigation a {
+    color: rgb(209, 209, 209);
+}
+
+.navigation a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
 .navigation ul li:last-child {
     margin-right: 0px;
 }
@@ -35,7 +44,6 @@ header {
 .middle {
     margin: auto;
     max-width: 1200px;
-    background-color: lime;
 }
 
 .banner-content {
@@ -58,6 +66,50 @@ img {
 
 .title-container {
     max-width: 50%;
+}
+
+/* .title-container a {
+    text-decoration: none;
+    color: inherit;
+    border: solid 1px rgb(209, 209, 209);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title-container a:hover {
+    text-decoration: none;
+    color: inherit;
+    border: solid 1px black
+} */
+
+.middle-links {
+    text-decoration: none;
+    color: inherit;
+}
+
+.middle-links:hover {
+    color: rgb(255, 203, 147);
+    text-decoration: none;
+}
+
+.learn {
+    text-decoration: none;
+    color: inherit;
+    border: solid 1px rgb(209, 209, 209);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.learn:hover {
+    text-decoration: none;
+    color: inherit;
+    border: solid 1px black
 }
 
 footer {
