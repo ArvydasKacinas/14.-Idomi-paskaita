@@ -1,0 +1,111 @@
+body {
+    /* font-family: 'Montserrat' !important; */
+    margin: 0 auto;
+}
+
+header {
+max-width: 1200px;
+}
+
+.top-container {
+display: flex;
+justify-content: space-between;
+margin: auto;
+max-width: 1200px;
+}
+
+.top-link a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navigation {
+display: inline-block;
+}
+
+.navigation ul li {
+display: inline;
+margin-right: 30px;
+}
+
+.navigation a {
+color: rgb(209, 209, 209);
+}
+
+.navigation a:hover {
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+
+.navigation ul li:last-child {
+margin-right: 0px;
+}
+
+.image-showcase-grid {
+    display: grid;
+    /* align-self: center; grid'a reik align */
+    grid-template-columns: 364px 364px 364px;
+    grid-template-rows: auto auto;
+}
+
+.image-showcase-grid img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.image-showcase-item1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.image-showcase-item2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.image-showcase-item3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.image-showcase-item4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.image-showcase-item5 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.image-showcase-item6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.show-more {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.show-more:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 203, 147);
+}
+
+footer {
+margin: auto;
+max-width: 1200px;
+}
+
+footer p {
+margin: 0px;
+}
